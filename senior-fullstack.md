@@ -13,7 +13,7 @@ I learned how the Rag method, which tests artificial intelligence software, work
 
 ### 1.2. - **What is your favorite programming language and why?**
 
-Visual studio method document is more beautiful and understandable. In my previous work experience, it was requested to collect alarm system data with SIA protocol in IP receiver application with c#. There were many calculations here and these calculations had to be done via pointers. C# being high level and using pointers as unsafety helped many people. That's why my favorite programming language is c
+Visual studio method document is more beautiful and understandable. In my previous work experience, it was requested to collect alarm system data with SIA protocol in IP receiver application with c#. There were many calculations here and these calculations had to be done via pointers. C# being high level and using pointers as unsafety helped many people. That's why my favorite programming language is c#.
 ### 1.3. - **How do you feel about the following piece of code?**
 
 This is obviously to get you talking, there is no right answer!
