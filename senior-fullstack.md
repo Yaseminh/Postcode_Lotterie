@@ -61,7 +61,8 @@ Array.prototype.unique = function() {
  return this.filter((value, index, self) => self.indexOf(value) === index);
 };
 #This code removes dublicate values.
-With unique, repetition is prevented. But in the other example, a continuously repeating code piece is created. This is the benefit of use. In other words, a sample is actually taken each time.
+With unique, repetition is prevented. But in the other example, a continuously repeating code piece is created.
+This is the benefit of use. In other words, a sample is actually taken each time.
 example 1
 const array = [1, 2, 2, 3, 4, 4, 5];
 const uniqueArray1 = array.unique(); // [1, 2, 3, 4, 5]
