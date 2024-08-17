@@ -1,6 +1,6 @@
 ![img.png](img.png)
 
-### 1.2. - Initialize a New npm Project
+### Initialize a New npm Project
 ### npm init -y
 ### Install Required Dependencies
 ### npm install react react-dom tailwindcss
