@@ -45,7 +45,7 @@ console.log(uniqueArray2); // Çıktı: [1, 2, 3, 4, 5]
 Performance:
 The code may not be the most efficient, especially for large arrays. Since indexOf is called repeatedly for each element,
 it can have a worst case O(n²) time complexity.
-// Array.prototype.unique yöntemini Set ile yeniden tanımlıyoruz
+// We redefine the Array.prototype.unique method with Set.
 Array.prototype.unique = function() {
   return [...new Set(this)];
 };
