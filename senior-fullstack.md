@@ -69,14 +69,14 @@ example 1
 const array = [1, 2, 2, 3, 4, 4, 5];
 const uniqueArray1 = array.unique(); // [1, 2, 3, 4, 5]
 const uniqueArray2 = uniqueArray1.unique(); // [1, 2, 3, 4, 5]
-console.log(uniqueArray1); // Çıktı: [1, 2, 3, 4, 5]
-console.log(uniqueArray2); // Çıktı: [1, 2, 3, 4, 5]
+console.log(uniqueArray1); // output: [1, 2, 3, 4, 5]
+console.log(uniqueArray2); // output: [1, 2, 3, 4, 5]
 example 2
 const array = [1, 2, 2, 3, 4, 4, 5];
 const uniqueArray1 = array.filter((value, index, self) => self.indexOf(value) === index);
 const uniqueArray2 = uniqueArray1.filter((value, index, self) => self.indexOf(value) === index);
-console.log(uniqueArray1); // Çıktı: [1, 2, 3, 4, 5]
-console.log(uniqueArray2); // Çıktı: [1, 2, 3, 4, 5]
+console.log(uniqueArray1); // output: [1, 2, 3, 4, 5]
+console.log(uniqueArray2); // output: [1, 2, 3, 4, 5]
 Performance:
 The code may not be the most efficient, especially for large arrays. Since indexOf is called repeatedly for each element,
 it can have a worst case O(n²) time complexity.
@@ -87,7 +87,7 @@ Array.prototype.unique = function() {
 // Example 3
 const array = [1, 2, 2, 3, 4, 4, 5];
 const uniqueArray = array.unique();
-console.log(uniqueArray); // oytput: [1, 2, 3, 4, 5]
+console.log(uniqueArray); // output: [1, 2, 3, 4, 5]
 Since set stores unique values, it is better in terms of performance. This method has O(n) time complexity.
 
 
@@ -125,7 +125,7 @@ Array.prototype.unique = function <T>(this: T[]): T[] {
 };
 const array = [1, 2, 2, 3, 4, 4, 5];
 const uniqueArray = array.unique();
-console.log(uniqueArray); // Çıktı: [1, 2, 3, 4, 5]
+console.log(uniqueArray); // output: [1, 2, 3, 4, 5]
 
 
 ### 2.2. - **Implement a "table" component**
