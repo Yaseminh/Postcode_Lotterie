@@ -28,7 +28,8 @@ Array.prototype.unique = function() {
  return this.filter((value, index, self) => self.indexOf(value) === index);
 };
 #This code removes dublicate values.
-With unique, repetition is prevented. But in the other example, a continuously repeating code piece is created. This is the benefit of use. In other words, a sample is actually taken each time.
+With unique, repetition is prevented. But in the other example, a continuously repeating code piece is created.
+This is the benefit of use. In other words, a sample is actually taken each time.
 example 1
 const array = [1, 2, 2, 3, 4, 4, 5];
 const uniqueArray1 = array.unique(); // [1, 2, 3, 4, 5]
@@ -42,7 +43,8 @@ const uniqueArray2 = uniqueArray1.filter((value, index, self) => self.indexOf(va
 console.log(uniqueArray1); // Çıktı: [1, 2, 3, 4, 5]
 console.log(uniqueArray2); // Çıktı: [1, 2, 3, 4, 5]
 Performance:
-The code may not be the most efficient, especially for large arrays. Since indexOf is called repeatedly for each element, it can have a worst case O(n²) time complexity.
+The code may not be the most efficient, especially for large arrays. Since indexOf is called repeatedly for each element,
+it can have a worst case O(n²) time complexity.
 // Array.prototype.unique yöntemini Set ile yeniden tanımlıyoruz
 Array.prototype.unique = function() {
   return [...new Set(this)];
@@ -76,7 +78,8 @@ const uniqueArray2 = uniqueArray1.filter((value, index, self) => self.indexOf(va
 console.log(uniqueArray1); // Çıktı: [1, 2, 3, 4, 5]
 console.log(uniqueArray2); // Çıktı: [1, 2, 3, 4, 5]
 Performance:
-The code may not be the most efficient, especially for large arrays. Since indexOf is called repeatedly for each element, it can have a worst case O(n²) time complexity.
+The code may not be the most efficient, especially for large arrays. Since indexOf is called repeatedly for each element,
+it can have a worst case O(n²) time complexity.
 // Array.prototype.unique yöntemini Set ile yeniden tanımlıyoruz
 Array.prototype.unique = function() {
   return [...new Set(this)];
