@@ -56,7 +56,7 @@ Since set stores unique values, it is better in terms of performance. This metho
 ```
 
 ### 1.4. - **What does this do?**
-
+```javascript
 Array.prototype.unique = function() {
  return this.filter((value, index, self) => self.indexOf(value) === index);
 };
